@@ -2,6 +2,6 @@
 
 ## Description
 
-Testing some (appwrite SDK)[https://appwrite.io/docs/client/account]
+Testing some [appwrite SDK](https://appwrite.io/docs/client/account)
 
-with (Nuxt Auth)[https://auth.nuxtjs.org/guide/scheme]
+with [Nuxt Auth](https://auth.nuxtjs.org/guide/scheme)
