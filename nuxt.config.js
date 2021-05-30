@@ -47,8 +47,7 @@ export default {
   auth: {
     strategies: {
       customStrategy: {
-        scheme: '~/schemes/customScheme',
-        /* ... */
+        scheme: '~/schemes/appwriteScheme',
       }
     }
   },

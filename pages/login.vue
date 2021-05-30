@@ -1,6 +1,7 @@
 <template>
   <div class="bg-blue-300">
     <div>user --> {{ $auth.user }}</div>
+    <p>--> {{ $auth.loggedIn }}</p>
 
     <h1>Login</h1>
 
@@ -10,22 +11,27 @@
     <button
       class="p-5 bg-green-300 text-white font-bold rounded"
       v-on:click="login()"
+      v-if="!$auth.loggedIn"
     >
       Login Perro
     </button>
     <button
       class="p-5 bg-red-300 text-white font-bold rounded"
       v-on:click="logout()"
+      v-else
     >
       Logout Perro
     </button>
+
+    <nuxt-link to="/">Home</nuxt-link>
   </div>
 </template>
 
 <script>
 export default {
+  // middleware: 'auth',
   data: () => ({
-    email: 'aus@gmail.com',
+    email: 'nieve@gmail.com',
     password: 'sonic123',
   }),
   methods: {
@@ -35,8 +41,10 @@ export default {
           email: this.email,
           password: this.password,
         })
-        .then((response) => {
-          console.log(response)
+        .then(async (response) => {
+          console.log('correct login')
+          // await this.$auth.setUser({ user: 'hey' })
+          this.$router.push('/')
         })
         .catch((err) => {
           console.error(err)
