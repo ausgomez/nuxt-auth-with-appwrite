@@ -2482,10 +2482,10 @@ anymatch@^2.0.0:
     micromatch "^3.1.4"
     normalize-path "^2.1.1"
 
-appwrite@^3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/appwrite/-/appwrite-3.0.4.tgz#585252ca0a176fd7a0650ba24d427b8faea32921"
-  integrity sha512-+VSVGPrZ0xblS5e3XhYuUr/C2V9RJniAqcyZ9QXS5W5BZqYZKZhCDLSizAweaHJvoBfYnXEmo6wG5rvdmFgMrQ==
+appwrite@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/appwrite/-/appwrite-3.1.0.tgz#28626fd6c9f57b31254ca89f5d2f55268b27fcc9"
+  integrity sha512-p5z0VCnorMOr8RRdBZUW605Zyv3k56H+glqDZKE+0b2Atx6to1/qSOLYE/BE8Q9Vaz8rqsetZAQfhCQHdjDbYg==
   dependencies:
     cross-fetch "^3.1.0"
     isomorphic-form-data "^2.0.0"
