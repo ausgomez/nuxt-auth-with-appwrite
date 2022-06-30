@@ -12,7 +12,7 @@
   "dependencies": {
     "@nuxtjs/auth-next": "5.0.0-1622018627.48534b6",
     "@nuxtjs/axios": "^5.13.1",
-    "appwrite": "^3.0.4",
+    "appwrite": "^9.0.1",
     "core-js": "^3.9.1",
     "node-appwrite": "^2.2.3",
     "nuxt": "^2.15.3"
